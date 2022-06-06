@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main-page{
+    background: linear-gradient(rgba(20, 20, 20, 0.35), rgba(199, 198, 198, 0.7)),
+    url("https://tiqets-cdn.s3.eu-west-1.amazonaws.com/wordpress/blog/wp-content/uploads/2021/04/07094257/929px-Starry_Night_Over_the_Rhone.jpg");
+    background-image: url('https://tiqets-cdn.s3.eu-west-1.amazonaws.com/wordpress/blog/wp-content/uploads/2021/04/07094257/929px-Starry_Night_Over_the_Rhone.jpg') ; 
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+
+}
+ .nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(130, 183, 227) !important;
+    text-decoration: underline;
+
+
+}
+#title{
+    font-size: 48px;
+
+}
+.icon:hover{
+    color: rgb(130, 183, 227) !important;  
+}
+.underl{
+    width: 6%;
+    height: 3px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+
+}
+#hero{
+    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url("https://tiqets-cdn.s3.eu-west-1.amazonaws.com/wordpress/blog/wp-content/uploads/2021/04/07094257/929px-Starry_Night_Over_the_Rhone.jpg");
+    background-image: url('https://tiqets-cdn.s3.eu-west-1.amazonaws.com/wordpress/blog/wp-content/uploads/2021/04/07094257/929px-Starry_Night_Over_the_Rhone.jpg');
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+/* about */
+#about-navbar{
+    background: linear-gradient(rgba(20, 20, 20, 0.35), rgba(199, 198, 198, 0.7)),
+    url("https://tiqets-cdn.s3.eu-west-1.amazonaws.com/wordpress/blog/wp-content/uploads/2021/04/07094257/929px-Starry_Night_Over_the_Rhone.jpg");
+    background-image: url('https://tiqets-cdn.s3.eu-west-1.amazonaws.com/wordpress/blog/wp-content/uploads/2021/04/07094257/929px-Starry_Night_Over_the_Rhone.jpg') ; 
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+.size{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+@media screen and (max-width: 992px) {
+    .size{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .size{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .size{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}
